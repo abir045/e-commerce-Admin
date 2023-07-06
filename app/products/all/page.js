@@ -18,9 +18,6 @@ const ProductPage = async () => {
 
   return (
     <div className="flex mx-[10%]">
-      {/* {products.map((item) => (
-        <div>{item.title}</div>
-      ))} */}
       <Products products={products} />
     </div>
   );
