@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+
 import Products from "@/app/components/Products";
 
 async function fetchProducts() {

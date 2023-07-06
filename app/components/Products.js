@@ -13,13 +13,12 @@ const Products = ({ products }) => {
               src={item.image}
               alt="product image"
             />
-            {/* </a> */}
+
             <div class="px-5 pb-5">
-              {/* <a href="#"> */}
               <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
                 {item.title}
               </h5>
-              {/* </a> */}
+
               <div class="flex items-center mt-2.5 mb-5">
                 <svg
                   class="w-4 h-4 text-yellow-300 mr-1"
