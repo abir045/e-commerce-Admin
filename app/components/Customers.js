@@ -5,7 +5,10 @@ const Customers = ({ customers }) => {
   return (
     <div>
       {customers.map((item) => (
-        <div className="w-full max-w-md my-5 p-4 gap-8 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+        <div
+          key={item.id}
+          className="w-full max-w-md my-5 p-4 gap-8 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+        >
           <Link href={`/customers/all/${item.id}`}>
             <div className="flow-root">
               <ul
