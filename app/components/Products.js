@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Products = ({ products }) => {
   return (
-    <div className="grid grid-cols-2 mx-[15%]">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-[10%]">
       {products.map((item) => (
         <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <Link href={`/products/all/${item.id}`}>
