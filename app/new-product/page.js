@@ -44,7 +44,8 @@ const NewProductPage = () => {
 
     // Submit the form data
     submitFormData(formData);
-    console.log(formData);
+
+    alert("you have successfully created a new product");
   };
 
   return (
