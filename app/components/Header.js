@@ -11,14 +11,6 @@ const Header = () => {
               E-commerce Admin{" "}
             </Link>
           </div>
-
-          {/* <div className="flex justify-end space-x-5">
-            <Link href="/login">Login </Link>
-            <Link href="/products/all">Products </Link>
-            <Link href="/admin-dashboard"> Admin Dashboard</Link>
-            <Link href="/order-list">Order List </Link>
-            <Link href="/product-detail-view">Product Detail View </Link>
-          </div> */}
         </div>
       </div>
 
@@ -238,7 +230,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/register"
                 className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
               >
                 <svg
