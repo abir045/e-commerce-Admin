@@ -141,6 +141,36 @@ const Header = () => {
                     </span>
                   </a>
                 </li>
+
+                <li>
+                  <a
+                    href="/new-product"
+                    className="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                  >
+                    <svg
+                      className="w-5 h-5"
+                      viewBox="0 0 20 20"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="layer1">
+                        <path
+                          d="M 6 1 L 6 4 L 7 4 L 7 2 L 18 2 L 18 13 L 16 13 L 16 14 L 19 14 L 19 1 L 6 1 z M 1 6 L 1 19 L 14 19 L 14 6 L 1 6 z M 2 7 L 13 7 L 13 18 L 2 18 L 2 7 z M 7 9 L 7 12 L 4 12 L 4 13 L 7 13 L 7 16 L 8 16 L 8 13 L 11 13 L 11 12 L 8 12 L 8 9 L 7 9 z "
+                          style={{
+                            fill: "#222222",
+                            fillOpacity: "1",
+                            stroke: "none",
+                            strokeWidth: "0px",
+                          }}
+                        />
+                      </g>
+                    </svg>
+
+                    <span className="ml-2 text-left whitespace-nowrap">
+                      Add New Product
+                    </span>
+                  </a>
+                </li>
                 <li>
                   <a
                     href="/customers/all"
@@ -247,6 +277,35 @@ const Header = () => {
                 <span className="flex-1 ml-3 whitespace-nowrap">Register</span>
               </a>
             </li>
+            {/* add user */}
+            {/* <li>
+              <a
+                href="/new-product"
+                className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              >
+                <svg
+                  className="w-5 h-5"
+                  viewBox="0 0 20 20"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="layer1">
+                    <path
+                      d="M 6 1 L 6 4 L 7 4 L 7 2 L 18 2 L 18 13 L 16 13 L 16 14 L 19 14 L 19 1 L 6 1 z M 1 6 L 1 19 L 14 19 L 14 6 L 1 6 z M 2 7 L 13 7 L 13 18 L 2 18 L 2 7 z M 7 9 L 7 12 L 4 12 L 4 13 L 7 13 L 7 16 L 8 16 L 8 13 L 11 13 L 11 12 L 8 12 L 8 9 L 7 9 z "
+                      style={{
+                        fill: "#222222",
+                        fillOpacity: "1",
+                        stroke: "none",
+                        strokeWidth: "0px",
+                      }}
+                    />
+                  </g>
+                </svg>
+                <span className="flex-1 ml-2 whitespace-nowrap">
+                  Add New Product
+                </span>
+              </a>
+            </li> */}
           </ul>
         </div>
       </div>

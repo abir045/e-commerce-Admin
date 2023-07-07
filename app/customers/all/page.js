@@ -14,7 +14,6 @@ async function fetchCustomers() {
 const CustomerPage = async () => {
   const customers = await fetchCustomers();
   console.log(customers);
-
   return (
     <div className="flex mx-[10%]">
       <Customers customers={customers} />
