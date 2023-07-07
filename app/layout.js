@@ -16,7 +16,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Header />
         <main className="container">{children}</main>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"
+          defer
+        ></script>
       </body>
     </html>
   );
