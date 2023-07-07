@@ -11,6 +11,7 @@
 
 - flowbite
 - date-fns
+- https://fakestoreapi.com/
 
 
 
